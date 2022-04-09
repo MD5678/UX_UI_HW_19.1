@@ -1,0 +1,59 @@
+header li{
+  display: inline-block;
+vertical-align: text-top;
+margin: 1% 1% 1% 1%; 
+}
+logo{
+    max-width:0%;
+    padding: 0%;
+    text-align: center;
+}
+.navigation{
+    max-width:100%;
+    padding: 0%;
+}
+header ul{
+    float: left;
+    width: 100%;
+    margin-left: auto;
+    background-color: #F4EEE6;
+    padding: 25px;
+}
+.heroSection {
+    /*height: 400px;*/
+    padding: 0px;
+    display: inline-block;
+    vertical-align: text-top;
+    width: 100%;
+    background-color: #F4EEE6;
+}
+.content {
+    width: 30%;
+    margin: 5% 1% 5% 10%;
+    float: left;
+}
+.heroImg {
+    width: 48%;
+    margin: 5% 1% 5% 10%;
+    float: right;
+}
+/*my work using CSS grid*/
+.grid-container {
+    display: grid;
+    grid-template-columns: 48% 48%;
+    grid-template-rows: 200px 200px;
+    gap: 10px;
+    background-color: #F4EEE6;
+}
+.myWork{
+    padding: 0px;
+    display: inline-block;
+    vertical-align: text-top;
+    width: 100%;
+}
+footer{
+    background-color: #F4EEE6;
+}
+footer p{
+    text-align: center;
+}
